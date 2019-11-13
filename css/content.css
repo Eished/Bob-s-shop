@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*
+	SuEis@qq.com
+*/
+#content{margin:0 auto;width: 1000px;}
+	
+	/*空白部分*/
+	.ct-blank{height:55px;}
+
+	/*大图轮播*/
+	.ct-viewport{ height: 400px;overflow: hidden;}
+
+		/*轮播设置 没有学先跳过*/
+		.ct-li{}
+
+	/*左边侧边栏*/
+	.ct-sidebar{margin-top: 10px; width:200px;float:left;}
+
+		/*侧边栏内搜索栏*/
+		.ct-search{margin-left: 6px; line-height:34px;background: url(../images/ara.png) ;width:180px;height:37px;}
+
+			/*搜索框美化*/
+			.search-input{width:130px; border:0px;height:22px;outline:medium;  }
+
+			/*搜索按钮美化*/
+			.search-button{margin-left: 5px;  }
+
+		/*侧边栏里面分类栏*/
+		.ct-category{margin-top:5px;}
+
+			/*商品分类*/
+			.ct-ca-sp{width: 200px;height: 48px;display:block;text-align:center;line-height:42px;font-size:26px;color: #fff; background-image: url(../images/kat-bas.png);}
+
+			/*分类ul*/
+			.ct-ca-ul{padding-top:5px; background: url(../images/kat-orta.png);}
+
+				/*分类li*/
+				.ct-ca-li{width:200px;height:27px;font-size:15px;}
+
+				/*分类li>a*/
+				.ct-ca-li>a{margin-left:23px;padding-left:10px;color: #000;display:block;width:160px;height: 27px;line-height:25px;}
+
+				/*分类li>a:hover*/
+				.ct-ca-li>a:hover{background: url(../images/menu-hover.png);}
+
+			/*商品分类*/
+			.ct-ca-sp2{width: 200px;height: 29px;display:block; background:url(../images/kat-alt.png)}
+
+		/*推荐商品*/
+
+
+	/*右边物品栏*/
+	.ct-goods{float:left;width:800px;border-top:5px solid #888;margin:10px auto;}
+
+		/*商品列表*/
+		.ct-list{}
+
+			/*商品列表a*/
+			.ct-list-a{color:#333; float:left;width:20%;height:200px;border-right:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7;margin-right:-1px;margin-bottom:-1px; }
+
+			.ct-list-a:hover{color:red;}
+
+				/*商品内容*/
+				.ct-wrap{margin:10px;}
+
+				.ct-wrap>p{margin-top:8px;height:12px;font-size:12px; overflow:hidden;}

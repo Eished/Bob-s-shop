@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*
+	SuEis@qq.com
+*/
+
+/* nav */
+#nav{margin: 0 auto;width: 1000px;height: 38px;}
+
+	/*nav-ul*/
+	.nav-ul{}
+
+
+		/*nav-li>a*/
+		/*.nav-ul>a{float:left;font-size: 20px;color: #eee;display: block;line-height: 36px;}*/
+		.nav-li>a{font-size: 20px;color: #eee;display: block;line-height: 38px;text-align: center;}
+		.nav-li>a:hover{background: #368;}
+
+			/*nav-li*/
+			.nav-li{float:left;height:38px ;width:130px;}
